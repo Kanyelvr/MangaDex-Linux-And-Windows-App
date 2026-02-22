@@ -1,0 +1,15 @@
+[package]
+name = "mangadex-linux"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+[target.'cfg(target_os = "linux")'.dependencies]
+gtk4 = "0.9"
+webkit6 = "0.4"
+arboard = "3.4"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+wry = "0.35"
+tao = "0.25"
+arboard = "3.4"
