@@ -16,5 +16,10 @@ Great manga reader made with best coding language RUST.
 ## Deinstall   
 
 1. Deinstall Script:
+   ```bash
    rm -f ~/.local/share/applications/mangadex.desktop \
       ~/.local/share/icons/mangadex.ico && \
+   
+### Made By Kanyelvrs
+### Licence: Notmeower.lol 
+### Distributor: Notmeower
